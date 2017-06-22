@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>ru.send-to.versionManagement</groupId>
+		<artifactId>LibsManagement</artifactId>
+		<version>0.1</version>
+	</parent>
+	<groupId>ru.send-to.utils</groupId>
+	<artifactId>StateUtils</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>StateUtils</name>
+	<description>Utils to manipulate state of objects using lambdas</description>
+	<url>http://github.com/nleva/${project.name}</url>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+
+	<developers>
+		<developer>
+			<id>nleva</id>
+			<name>Lev Nadeinsky</name>
+			<email>n.lev.a@ya.ru</email>
+			<timezone>+4</timezone>
+		</developer>
+	</developers>
+
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<connection>scm:git:https://github.com/nleva/${project.name}.git</connection>
+		<developerConnection>scm:git:https://github.com/nleva/${project.name}.git</developerConnection>
+		<url>https://github.com/nleva/${project.name}</url>
+	</scm>
+	
+</project>
